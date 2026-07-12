@@ -31,8 +31,9 @@ nav .nav-menu li{
 }
 nav .nav-menu li a{
     text-decoration: none;
+    color: white;
 }
-.nav-content .logo h2{
+nav .logo h2{
     font-size: 28px;
     color: #E9B44C;
 }
