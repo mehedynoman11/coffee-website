@@ -97,3 +97,35 @@ section{
   justify-content: start;
   align-items: start;
 }
+
+/* Popular Section  */
+.popular-section{
+  background-color: #F1E7D8;
+}
+.popular-text{
+  text-align: center;
+}
+.popular-text span{
+  font-weight: 400;
+  color: #e9b44c;
+}
+.popular-text h2{
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+.card .card-content{
+  text-align: center;
+  padding: 25px;
+  background-color: #ffffff;
+  width: 200px;
+  height: 200px;
+}
+.card-content img{
+ padding-bottom: 12px;
+}
+.card-content h3{
+ padding-bottom: 12px;
+}
+.card-content p{
+ padding-bottom: 12px;
+}
