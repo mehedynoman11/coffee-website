@@ -1,39 +1,99 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    background-color: #ddd4bf;
-    font-family: Helvetica, sans-serif;
+body {
+  /* background-color: #ddd4bf; */
+  font-family: Helvetica, sans-serif;
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 8%;
-    background-color: #2E2622;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+  background-color: #2e2622;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+nav .nav-menu li {
+  list-style: none;
+  font-size: 22px;
+}
+nav .nav-menu li a {
+  text-decoration: none;
+  color: white;
+}
+nav .logo h2 {
+  font-size: 28px;
+  color: #e9b44c;
+}
+.btn {
+  padding: 10px 16px;
+  border-radius: 20px;
+  border-style: none;
+  background-color: #e9b44c;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+/* hero section s */
+header {
+  background-image: url(../image/bg-image.avif);
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: grid;
+  align-items: center;
+}
+.hero-text {
+  display: grid;
+  justify-content: center;
+  color: white;
+  gap: 20px;
+  text-align: center;
+}
+header .hero-text span {
+  color: #e9b44c;
+  font-weight: 600;
+}
+header .hero-text h2 {
+  font-weight: 800;
+  font-size: 40px;
+}
+.hero-text button {
+  width: 20%;
+  margin-left: 40%;
+}
 
+section{
+    padding: 80px 8%;
 }
-.logo{
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.box-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
 }
-.nav-menu{
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    align-items: center;
+
+.box-content .box-img img {
+  width: 100%;
+  border-radius: 10px;
 }
-nav .nav-menu li{
-    list-style: none;
-    font-size: 22px;
-}
-nav .nav-menu li a{
-    text-decoration: none;
-    color: white;
-}
-nav .logo h2{
-    font-size: 28px;
-    color: #E9B44C;
+.box-text {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: start;
+  align-items: start;
 }
