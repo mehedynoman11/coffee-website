@@ -129,3 +129,38 @@ section{
 .card-content p{
  padding-bottom: 12px;
 }
+.card{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+/* Table Section  */
+.table `-text{
+  text-align: center;
+}
+.table-text span {
+  font-weight: 400;
+  color: #e9b44c;
+}
+.table-text h2 {
+  margin-top: 10px;
+  font-size: 32px;
+}
+table{
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+td, th{
+  border: 2px solid black;
+  padding: 12px 8px;
+  text-align: center;
+}
+thead{
+  background-color: #2e2622;
+  color: #e9b44c;
+}
